@@ -1,16 +1,16 @@
-// const score = 100
-// console.log(score);
+const score = 100
+console.log(score);
 
-// const newScore = new Number(300)
-// console.log(newScore);
-// console.log(newScore.toString());
-// console.log(newScore.toString().length);
-// console.log(newScore.toFixed(2));
-// const number= 23.454
-// console.log(number.toPrecision(4));
+const newScore = new Number(300)
+console.log(newScore);
+console.log(newScore.toString());
+console.log(newScore.toString().length);
+console.log(newScore.toFixed(2));
+const number= 23.454
+console.log(number.toPrecision(4));
 
-// const hundreds =1000
-// console.log(hundreds.toLocaleString());
+const hundreds =1000
+console.log(hundreds.toLocaleString());
 
 
 //+++++++++++++++++mathss+++++++++++++++++++++++++++
