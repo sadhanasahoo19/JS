@@ -32,3 +32,21 @@ const myFunction = function(){ //functions
 console.log(typeof bigNumber);
 console.log(typeof temp);
 console.log(typeof myFunction);
+
+//******************************************************************************** */
+//stack(primitive= whatever variable we created, we get the copy), heap memeory(nonprimitive type= wheneever the memory go into the heap we get the reference)
+let myYouTube= "chinu"
+let anotherName=myYouTube
+anotherName="chaiaurbiscuit"
+console.log(myYouTube);
+console.log(anotherName);
+
+//arrays - nonprimitive
+let userOne={
+    name:"chinti",
+    upi:"userhdfdi"
+}
+let userTwo= userOne
+userTwo.name="minti"
+console.log(userOne.name);
+console.log(userTwo.name);
