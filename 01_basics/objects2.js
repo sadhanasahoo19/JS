@@ -1,3 +1,4 @@
+
 // const sum = new Object() //this is the singleton object
 const sum ={}//non singleton object
 sum.id = "abh12"
@@ -22,6 +23,7 @@ console.log(regularName.fullname.username);//to access the objects inside the ob
 const obj1={1:"a" , 2:"b"}
 const obj2 ={3:"c",4:"d"}
 // const obj3 = {obj1 , obj2}//this is normal way 
+
 
 const obj3 = Object.assign(obj1, obj2) //({} ,obj1, obj2)
 //syntax: object.assign(target, source)
