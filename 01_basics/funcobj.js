@@ -11,12 +11,13 @@ console.log(addC(200,20000,300,4000,390,49569));
 
 //passing the object as a function
 const user={
-    name:"chinu",
-    price:199
+    // name:"chinu",
+    // price:199
 }
 function handleobj(anyobj){
     console.log(`username is ${anyobj.name} and price is ${anyobj.price}`);
 }
+handleobj(user);
 // handleobj(user);
 handleobj({//we can also directly pass the obj
     name:"prashant",
@@ -29,3 +30,4 @@ function returnsecval(getarr){
     return getarr[1]
 }
 // console.log(returnsecval(myarr));
+console.log(returnsecval([100,300,400,290]));
